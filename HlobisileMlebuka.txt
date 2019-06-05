@@ -42,12 +42,12 @@ Task 5
 
 Task 6
 1):~/Desktop$ locate *pdf
-2):~/Desktop/work$ cat locate.txt
+2):~/Desktop/work$ locate *pdf >> :~//Desktop/locate.txt
 3):~/Desktop$ find ~/Desktop -mtime -1 -ls
 
 Task 10
 1) :~/Desktop nano my_bio.txt
-2) :~/Desktop mkdir my_files; 
+2) :~/Desktop mkdir my_files 
 3) :~/Desktop mv ~/Desktop/my_bio.txt ~/Desktop/my_files
 
 
