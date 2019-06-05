@@ -1,0 +1,62 @@
+TASK 1
+
+find Desktop
+Desktop
+Desktop/dev...
+
+cd Desktop
+mkdir myProject
+cd /myProject
+touch app.js
+cd ..
+mkdir myProject2
+cp ~/Desktop/myProject/app.js ~/Desktop/myProject2
+
+
+TASK 2
+
+cd ~/
+touch exercise.txt
+mv /Hlobisile/Desktop/myProject2/exercise.txt /tmp
+
+Task 3
+touch umuzi.txt recruits.txt cohort.txt
+sudo echo "Hello world recruits" >> recruits.txt
+sudo echo "Hello world umuzi" >> umuzi.txt
+sudo echo "hello world cohorts" >> cohort.txt
+
+Task 4
+cat umuzi.txt cohort.txt recruits.txt
+cat umuzi.txt cohort.txt recruits.txt  > summary.txt
+cat >> summary.txt
+
+Task 5
+1) :~/Documents$ touch pad.txt
+2) :~/Documents$ cd ~/Desktop
+   :~/Desktop$ mkdir work
+3) :~/Desktop$ cp ~/Documents/pad.txt ~/Desktop/work/pad_copy.txt
+4) :~/sudo updatedb
+5) :~/cd -
+6) :~/locate pad_copy.txt
+   /home/hlobisile/Desktop/work/pad_copy.txt
+
+Task 6
+1):~/Desktop$ locate *pdf
+2):~/Desktop/work$ cat locate.txt
+3):~/Desktop$ find ~/Desktop -mtime -1 -ls
+
+Task 10
+1) :~/Desktop nano my_bio.txt
+2) :~/Desktop mkdir my_files; 
+3) :~/Desktop mv ~/Desktop/my_bio.txt ~/Desktop/my_files
+
+
+
+
+
+
+
+
+
+
+
